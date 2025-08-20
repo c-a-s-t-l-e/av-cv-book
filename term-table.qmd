@@ -1,0 +1,19 @@
+# Terminology Table {#sec-terminology}
+
+| Term | Abbreviation | Definition | Example / Notes |
+|------|--------------|------------|-----------------|
+| Adanced Driving Assistance System | ADAS | Defintion of ADAS | Think Tesla |
+| Adaptive Cruise Control | ACC | Defintion of ADAS | Think Tesla |
+| Advanced Driving System | ADS | Defintion of ADAS | Think Tesla |
+| Advanced Driving Assistance System - Dedicated Vehicle | ADAS-DV | Defintion of ADAS | Think Tesla |
+| Automatic Emergency Braking | AEB | Defintion of ADAS | Think Tesla |
+| Automated Driving System | ADS | Level 3 through 5 systems that perform dynamic driving tasks on a sustained basis; the abbreviation should largely remain as such to avoid confusion with "driving automations system" | Think Tesla |
+| Dynamic Driving Task | DDT | Defintion of ADAS | Think Tesla |
+| Dedicated Short Range Communications | DSRC | Defintion of ADAS | Think Tesla |
+| Driving Automation System | -- | The generic term for any level 1 through 5 systems that perform dynanic driving tasks on a sustained basis | Think Tesla |
+| Eletronic Stability Control | ESC | Defintion of ADAS | Think Tesla |
+| Lane Keeping Assistance | LKA | Defintion of ADAS | Think Tesla |
+| Operational Design Domain | ODD | Defintion of ADAS | Think Tesla |
+| Object and Event Detection and Response | OEDR | Defintion of ADAS | Think Tesla |
+| Driverless Operation Dispatching Entity |  | Defintion of ADAS | Think Tesla |
+| Adanced Driving Assistance System | ADAS | Defintion of ADAS | Think Tesla |

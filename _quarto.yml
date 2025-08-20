@@ -1,0 +1,67 @@
+project:
+  type: book
+
+book:
+  title: "An Introduction to the World of Transportation"
+  reader-mode: false
+  
+  author: "W. Abram Astle"
+  date: "8/18/2025"
+  chapters:
+    - index.qmd
+    
+    - intro.qmd
+    
+    - part: "Bureaucracy Overview"
+      chapters:
+        - bureaucracy-layers.qmd
+    - part: "The Federal Bureaucracy"
+      chapters:
+        - congress.qmd
+        - usdot.qmd
+        - fhwa.qmd
+        - fta.qmd
+        - fra.qmd
+        - nhtsa.qmd
+        - fmcsa.qmd
+        - phmsa.qmd
+    - part: "State Bureaucracy"
+      chapters: 
+        - state-dot.qmd
+    - part: "Local Government Bureaucracy"
+      chapters:
+          - mpo.qmd
+          - rpo.qmd
+          - city-county-dot.qmd
+          - transit-agency.qmd
+        
+    - part: "Terminology"
+      chapters:
+        - terminology.qmd
+        - term-table.qmd
+        - levels-of-auto.qmd
+      
+    - part: "Technology"
+      chapters:
+        - technology.qmd
+        - carla.qmd
+        - abstreet.qmd
+      
+    - references.qmd
+    
+  page-footer: 
+    left: |
+          An Introduction to the World of Transportation was written by W. Abram Astle
+
+  
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - i2wt.scss
+
+editor: source
+

@@ -1,0 +1,10 @@
+# Levels of Automation {#sec-term}
+
+Autonomous driveing involves three components:
+
+- the driver
+- the driving system
+- the vehicle itself
+
+The levels of autonomy are then predicated upon 
+There are currently 6 levels of automation.

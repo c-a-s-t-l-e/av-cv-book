@@ -1,0 +1,5 @@
+# Terminology {#sec-intro}
+
+JUst as it is in nearly every domain of knowledge, there's a a lot of specialized terminology that takes a while to know and use. 
+
+This next few chapters will, in particular, try to help you with this. 

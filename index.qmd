@@ -1,0 +1,15 @@
+# Preface {.unnumbered}
+
+This book's goal is to give you an overview of the world of transportation.
+
+This will hopefully give you the know-how to generally understand:
+
+- the bureaucratic structures, 
+- domain-specific terminology, and 
+- technological steps 
+
+requisite to becoming useful in this domain.
+
+Just like lots of things in transportation, this book is definitely not perfect and should always be considered a work in progress. Feel free to reach out to me if you think something could be improved or would be a good addition to the text.
+
+As always though, press on!

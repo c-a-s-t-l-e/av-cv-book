@@ -1,0 +1,48 @@
+# How Many Layers Are There? {#sec-bureaucracy}
+
+Basic infrastructure (think interstates, highways, and common roads) is considered a common good by most people. With that said, how it's built, how it's maintained, and how people use it have generally fallen into the domain of government. 
+
+## The big picture
+
+```{mermaid}
+flowchart TD
+  A[Congress] --> B[USDOT]
+
+  B --> C[FHWA]
+  B --> D[FTA]
+  B --> E[FRA]
+  B --> F[FAA]
+  B --> G[NHTSA]
+  B --> H[FMCSA]
+  B --> I[PHMSA]
+
+  C --> J[State DOTs]
+  D --> J
+  E --> J
+  F --> J
+  G --> J
+  H --> J
+  I --> J
+
+  J --> K[MPOs]
+  J --> L(RPOs)
+  J --> M[City and County DOTs]
+  J --> N[Transit Agencies]
+
+  %% Clickable links
+  click A "https://www.congress.gov"
+  click B "https://www.transportation.gov"
+  click C "https://www.fhwa.dot.gov"
+  click D "https://www.transit.dot.gov"
+  click E "https://railroads.dot.gov"
+  click F "https://www.faa.gov"
+  click G "https://www.nhtsa.gov"
+  click H "https://www.fmcsa.dot.gov"
+  click I "https://www.phmsa.dot.gov"
+  click J "https://wikipave.org/index.php/List_of_Departments_of_Transportation_(DOTs)"
+  click K "https://www.planning.dot.gov/mpo/"
+```
+
+Above is the very abstracted, big picture of how the transportation bureaucratic system is set up.
+
+At the top is Congress and at the bottom are the local government entities. In the middle are the federal and state organizations.

@@ -1,0 +1,19 @@
+# Introduction {#sec-intro .unnumbered}
+
+There's always the great temptation to read and book and feel like you've done something.
+
+This book's goal is not that. It's to help you get stuff done. 
+
+Specifically, this book's goal is to help you know where you and where you want to go in the world of transportation.
+
+The main focus will be on working with and implementing transportation technology.
+
+
+
+
+
+See @knuth84 for additional discussion of literate programming.
+
+```{r}
+1 + 1
+```
