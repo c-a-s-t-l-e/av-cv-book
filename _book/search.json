@@ -46,7 +46,7 @@
     "href": "term-table.html",
     "title": "16  Terminology Table",
     "section": "",
-    "text": "Term\nAbbreviation\nDefinition\nExample / Notes\n\n\n\n\nAdanced Driving Assistance System\nADAS\nDefintion of ADAS\nThink Tesla",
+    "text": "Term\nAbbreviation\nDefinition\nExample / Notes\n\n\n\n\nAdanced Driving Assistance System\nADAS\nDefintion of ADAS\nThink Tesla\n\n\nAdaptive Cruise Control\nACC\nDefintion of ADAS\nThink Tesla\n\n\nAdvanced Driving System\nADS\nDefintion of ADAS\nThink Tesla\n\n\nAdvanced Driving Assistance System - Dedicated Vehicle\nADAS-DV\nDefintion of ADAS\nThink Tesla\n\n\nAutomatic Emergency Braking\nAEB\nDefintion of ADAS\nThink Tesla\n\n\nAutomated Driving System\nADS\nLevel 3 through 5 systems that perform dynamic driving tasks on a sustained basis; the abbreviation should largely remain as such to avoid confusion with “driving automations system”\nThink Tesla\n\n\nDynamic Driving Task\nDDT\nDefintion of ADAS\nThink Tesla\n\n\nDedicated Short Range Communications\nDSRC\nDefintion of ADAS\nThink Tesla\n\n\nDriving Automation System\n–\nThe generic term for any level 1 through 5 systems that perform dynanic driving tasks on a sustained basis\nThink Tesla\n\n\nEletronic Stability Control\nESC\nDefintion of ADAS\nThink Tesla\n\n\nLane Keeping Assistance\nLKA\nDefintion of ADAS\nThink Tesla\n\n\nOperational Design Domain\nODD\nDefintion of ADAS\nThink Tesla\n\n\nObject and Event Detection and Response\nOEDR\nDefintion of ADAS\nThink Tesla\n\n\nDriverless Operation Dispatching Entity\n\nDefintion of ADAS\nThink Tesla\n\n\nAdanced Driving Assistance System\nADAS\nDefintion of ADAS\nThink Tesla",
     "crumbs": [
       "Terminology",
       "<span class='chapter-number'>16</span>  <span class='chapter-title'>Terminology Table</span>"
@@ -57,7 +57,7 @@
     "href": "levels-of-auto.html",
     "title": "17  Levels of Automation",
     "section": "",
-    "text": "There are currently 6 levels of automation.",
+    "text": "Autonomous driveing involves three components:\n\nthe driver\nthe driving system\nthe vehicle itself\n\nThe levels of autonomy are then predicated upon There are currently 6 levels of automation.",
     "crumbs": [
       "Terminology",
       "<span class='chapter-number'>17</span>  <span class='chapter-title'>Levels of Automation</span>"
