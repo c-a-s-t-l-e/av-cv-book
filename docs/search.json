@@ -1,163 +1,87 @@
 [
   {
-    "objectID": "technology.html",
-    "href": "technology.html",
-    "title": "Technology",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "An Introduction to the World of Transportation",
     "section": "",
-    "text": "Technology\nTecnology section."
-  },
-  {
-    "objectID": "fra.html",
-    "href": "fra.html",
-    "title": "Federal Railroad Adminstration (FRA)",
-    "section": "",
-    "text": "Federal Railroad Adminstration (FRA)"
-  },
-  {
-    "objectID": "terminology.html",
-    "href": "terminology.html",
-    "title": "Terminology",
-    "section": "",
-    "text": "Terminology\nJUst as it is in nearly every domain of knowledge, there’s a a lot of specialized terminology that takes a while to know and use.\nThis next few chapters will, in particular, try to help you with this."
-  },
-  {
-    "objectID": "faa.html",
-    "href": "faa.html",
-    "title": "Federal Aviation Adminstration (FAA)",
-    "section": "",
-    "text": "Federal Aviation Adminstration (FAA)"
+    "text": "Preface\nThis book’s goal is to give you an overview of the world of transportation.\nThis will hopefully give you the know-how to generally understand:\n\nthe bureaucratic structures,\ndomain-specific terminology, and\ntechnological steps\n\nrequisite to becoming useful in this domain.\nJust like lots of things in transportation, this book is definitely not perfect and should always be considered a work in progress. Feel free to reach out to me if you think something could be improved or would be a good addition to the text.\nAs always though, press on!",
+    "crumbs": [
+      "Preface"
+    ]
   },
   {
     "objectID": "intro.html",
     "href": "intro.html",
     "title": "Introduction",
     "section": "",
-    "text": "Introduction\nThere’s always the great temptation to read and book and feel like you’ve done something.\nThis book’s goal is not that. It’s to help you get stuff done.\nSpecifically, this book’s goal is to help you know where you and where you want to go in the world of transportation.\nThe main focus will be on working with and implementing transportation technology.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "There’s always the great temptation to read and book and feel like you’ve done something.\nThis book’s goal is not that. It’s to help you get stuff done.\nSpecifically, this book’s goal is to help you know where you and where you want to go in the world of transportation.\nThe main focus will be on working with and implementing transportation technology.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "Introduction"
+    ]
   },
   {
-    "objectID": "state-dot.html",
-    "href": "state-dot.html",
-    "title": "State Departments of Transportation (State DOTs)",
+    "objectID": "bureaucracy-layers.html",
+    "href": "bureaucracy-layers.html",
+    "title": "1  How Many Layers Are There?",
     "section": "",
-    "text": "State Departments of Transportation (State DOTs)"
+    "text": "1.1 The big picture\nBasic infrastructure (think interstates, highways, and common roads) is considered a common good by most people. With that said, how it’s built, how it’s maintained, and how people use it have generally fallen into the domain of government.\nflowchart TD\n  A[Congress] --&gt; B[USDOT]\n\n  B --&gt; C[FHWA]\n  B --&gt; D[FTA]\n  B --&gt; E[FRA]\n  B --&gt; F[FAA]\n  B --&gt; G[NHTSA]\n  B --&gt; H[FMCSA]\n  B --&gt; I[PHMSA]\n\n  C --&gt; J[State DOTs]\n  D --&gt; J\n  E --&gt; J\n  F --&gt; J\n  G --&gt; J\n  H --&gt; J\n  I --&gt; J\n\n  J --&gt; K[MPOs]\n  J --&gt; L(RPOs)\n  J --&gt; M[City and County DOTs]\n  J --&gt; N[Transit Agencies]\n\n  %% Clickable links\n  click A \"https://www.congress.gov\"\n  click B \"https://www.transportation.gov\"\n  click C \"https://www.fhwa.dot.gov\"\n  click D \"https://www.transit.dot.gov\"\n  click E \"https://railroads.dot.gov\"\n  click F \"https://www.faa.gov\"\n  click G \"https://www.nhtsa.gov\"\n  click H \"https://www.fmcsa.dot.gov\"\n  click I \"https://www.phmsa.dot.gov\"\n  click J \"https://wikipave.org/index.php/List_of_Departments_of_Transportation_(DOTs)\"\n  click K \"https://www.planning.dot.gov/mpo/\"\nAbove is the very abstracted, big picture of how the transportation bureaucratic system is set up.\nAt the top is Congress and at the bottom are the local government entities. In the middle are the federal and state organizations.",
+    "crumbs": [
+      "Bureaucracy Overview",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>How Many Layers Are There?</span>"
+    ]
   },
   {
-    "objectID": "fmcsa.html",
-    "href": "fmcsa.html",
-    "title": "Federal Motor Carrier Safety Administration (FMCSA)",
+    "objectID": "terminology.html",
+    "href": "terminology.html",
+    "title": "15  Terminology",
     "section": "",
-    "text": "Federal Motor Carrier Safety Administration (FMCSA)"
+    "text": "JUst as it is in nearly every domain of knowledge, there’s a a lot of specialized terminology that takes a while to know and use.\nThis next few chapters will, in particular, try to help you with this.",
+    "crumbs": [
+      "Terminology",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Terminology</span>"
+    ]
   },
   {
-    "objectID": "transit-agency.html",
-    "href": "transit-agency.html",
-    "title": "Transit Agencies",
+    "objectID": "term-table.html",
+    "href": "term-table.html",
+    "title": "16  Terminology Table",
     "section": "",
-    "text": "Transit Agencies"
+    "text": "Term\nAbbreviation\nDefinition\nExample / Notes\n\n\n\n\nAdanced Driving Assistance System\nADAS\nDefintion of ADAS\nThink Tesla\n\n\nAdaptive Cruise Control\nACC\nDefintion of ADAS\nThink Tesla\n\n\nAdvanced Driving System\nADS\nDefintion of ADAS\nThink Tesla\n\n\nAdvanced Driving Assistance System - Dedicated Vehicle\nADAS-DV\nDefintion of ADAS\nThink Tesla\n\n\nAutomatic Emergency Braking\nAEB\nDefintion of ADAS\nThink Tesla\n\n\nAutomated Driving System\nADS\nLevel 3 through 5 systems that perform dynamic driving tasks on a sustained basis; the abbreviation should largely remain as such to avoid confusion with “driving automations system”\nThink Tesla\n\n\nDynamic Driving Task\nDDT\nDefintion of ADAS\nThink Tesla\n\n\nDedicated Short Range Communications\nDSRC\nDefintion of ADAS\nThink Tesla\n\n\nDriving Automation System\n–\nThe generic term for any level 1 through 5 systems that perform dynanic driving tasks on a sustained basis\nThink Tesla\n\n\nEletronic Stability Control\nESC\nDefintion of ADAS\nThink Tesla\n\n\nLane Keeping Assistance\nLKA\nDefintion of ADAS\nThink Tesla\n\n\nOperational Design Domain\nODD\nDefintion of ADAS\nThink Tesla\n\n\nObject and Event Detection and Response\nOEDR\nDefintion of ADAS\nThink Tesla\n\n\nDriverless Operation Dispatching Entity\n\nDefintion of ADAS\nThink Tesla\n\n\nAdanced Driving Assistance System\nADAS\nDefintion of ADAS\nThink Tesla",
+    "crumbs": [
+      "Terminology",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Terminology Table</span>"
+    ]
   },
   {
-    "objectID": "rpo.html",
-    "href": "rpo.html",
-    "title": "Rural Planning Organizations (RPOS)",
+    "objectID": "levels-of-auto.html",
+    "href": "levels-of-auto.html",
+    "title": "17  Levels of Automation",
     "section": "",
-    "text": "Rural Planning Organizations (RPOS)"
+    "text": "Autonomous driveing involves three components:\n\nthe driver\nthe driving system\nthe vehicle itself\n\nThe levels of autonomy are then predicated upon There are currently 6 levels of automation.",
+    "crumbs": [
+      "Terminology",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Levels of Automation</span>"
+    ]
   },
   {
-    "objectID": "mpo.html",
-    "href": "mpo.html",
-    "title": "Metropolitan Planning Organization (MPOs)",
+    "objectID": "technology.html",
+    "href": "technology.html",
+    "title": "18  Technology",
     "section": "",
-    "text": "Metropolitan Planning Organization (MPOs)"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Preface",
-    "section": "",
-    "text": "Preface\nThis book’s goal is to give you an overview of the world of transportation.\nThis will hopefully give you the know-how to generally understand:\n\nthe bureaucratic structures,\ndomain-specific terminology, and\ntechnological steps\n\nrequisite to becoming useful in this domain.\nJust like lots of things in transportation, this book is definitely not perfect and should always be considered a work in progress. Feel free to reach out to me if you think something could be improved or would be a good addition to the text.\nAs always though, press on!"
+    "text": "Tecnology section.",
+    "crumbs": [
+      "Technology",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Technology</span>"
+    ]
   },
   {
     "objectID": "references.html",
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "References"
-  },
-  {
-    "objectID": "city-county-dot.html",
-    "href": "city-county-dot.html",
-    "title": "City and County Departments of Transportation (City and County DOTs)",
-    "section": "",
-    "text": "City and County Departments of Transportation (City and County DOTs)"
-  },
-  {
-    "objectID": "congress.html",
-    "href": "congress.html",
-    "title": "Congress",
-    "section": "",
-    "text": "Congress"
-  },
-  {
-    "objectID": "levels-of-auto.html",
-    "href": "levels-of-auto.html",
-    "title": "Levels of Automation",
-    "section": "",
-    "text": "Levels of Automation\nAutonomous driveing involves three components:\n\nthe driver\nthe driving system\nthe vehicle itself\n\nThe levels of autonomy are then predicated upon There are currently 6 levels of automation."
-  },
-  {
-    "objectID": "bureaucracy-layers.html",
-    "href": "bureaucracy-layers.html",
-    "title": "How Many Layers Are There?",
-    "section": "",
-    "text": "Basic infrastructure (think interstates, highways, and common roads) is considered a common good by most people. With that said, how it’s built, how it’s maintained, and how people use it have generally fallen into the domain of government.\n\n\n\n\n\n\n\nflowchart TD\n  A[Congress] --&gt; B[USDOT]\n\n  B --&gt; C[FHWA]\n  B --&gt; D[FTA]\n  B --&gt; E[FRA]\n  B --&gt; F[FAA]\n  B --&gt; G[NHTSA]\n  B --&gt; H[FMCSA]\n  B --&gt; I[PHMSA]\n\n  C --&gt; J[State DOTs]\n  D --&gt; J\n  E --&gt; J\n  F --&gt; J\n  G --&gt; J\n  H --&gt; J\n  I --&gt; J\n\n  J --&gt; K[MPOs]\n  J --&gt; L(RPOs)\n  J --&gt; M[City and County DOTs]\n  J --&gt; N[Transit Agencies]\n\n  %% Clickable links\n  click A \"https://www.congress.gov\"\n  click B \"https://www.transportation.gov\"\n  click C \"https://www.fhwa.dot.gov\"\n  click D \"https://www.transit.dot.gov\"\n  click E \"https://railroads.dot.gov\"\n  click F \"https://www.faa.gov\"\n  click G \"https://www.nhtsa.gov\"\n  click H \"https://www.fmcsa.dot.gov\"\n  click I \"https://www.phmsa.dot.gov\"\n  click J \"https://wikipave.org/index.php/List_of_Departments_of_Transportation_(DOTs)\"\n  click K \"https://www.planning.dot.gov/mpo/\"\n\n\n\n\n\n\nAbove is the very abstracted, big picture of how the transportation bureaucratic system is set up.\nAt the top is Congress and at the bottom are the local government entities. In the middle are the federal and state organizations."
-  },
-  {
-    "objectID": "bureaucracy-layers.html#the-big-picture",
-    "href": "bureaucracy-layers.html#the-big-picture",
-    "title": "How Many Layers Are There?",
-    "section": "",
-    "text": "flowchart TD\n  A[Congress] --&gt; B[USDOT]\n\n  B --&gt; C[FHWA]\n  B --&gt; D[FTA]\n  B --&gt; E[FRA]\n  B --&gt; F[FAA]\n  B --&gt; G[NHTSA]\n  B --&gt; H[FMCSA]\n  B --&gt; I[PHMSA]\n\n  C --&gt; J[State DOTs]\n  D --&gt; J\n  E --&gt; J\n  F --&gt; J\n  G --&gt; J\n  H --&gt; J\n  I --&gt; J\n\n  J --&gt; K[MPOs]\n  J --&gt; L(RPOs)\n  J --&gt; M[City and County DOTs]\n  J --&gt; N[Transit Agencies]\n\n  %% Clickable links\n  click A \"https://www.congress.gov\"\n  click B \"https://www.transportation.gov\"\n  click C \"https://www.fhwa.dot.gov\"\n  click D \"https://www.transit.dot.gov\"\n  click E \"https://railroads.dot.gov\"\n  click F \"https://www.faa.gov\"\n  click G \"https://www.nhtsa.gov\"\n  click H \"https://www.fmcsa.dot.gov\"\n  click I \"https://www.phmsa.dot.gov\"\n  click J \"https://wikipave.org/index.php/List_of_Departments_of_Transportation_(DOTs)\"\n  click K \"https://www.planning.dot.gov/mpo/\"\n\n\n\n\n\n\nAbove is the very abstracted, big picture of how the transportation bureaucratic system is set up.\nAt the top is Congress and at the bottom are the local government entities. In the middle are the federal and state organizations."
-  },
-  {
-    "objectID": "nhtsa.html",
-    "href": "nhtsa.html",
-    "title": "National Highway Transportation Safety Adminstration (NHTSA)",
-    "section": "",
-    "text": "National Highway Transportation Safety Adminstration (NHTSA)"
-  },
-  {
-    "objectID": "phmsa.html",
-    "href": "phmsa.html",
-    "title": "Pipeline and Hazardous Materials Safety Adminstration (PHMSA)",
-    "section": "",
-    "text": "Pipeline and Hazardous Materials Safety Adminstration (PHMSA)"
-  },
-  {
-    "objectID": "usdot.html",
-    "href": "usdot.html",
-    "title": "US Department of Transportaiton (USDOT)",
-    "section": "",
-    "text": "US Department of Transportaiton (USDOT)"
-  },
-  {
-    "objectID": "fta.html",
-    "href": "fta.html",
-    "title": "Federal Transit Administration (FTA)",
-    "section": "",
-    "text": "Federal Transit Administration (FTA)"
-  },
-  {
-    "objectID": "term-table.html",
-    "href": "term-table.html",
-    "title": "Terminology Table",
-    "section": "",
-    "text": "Terminology Table\n\n\n\n\n\n\n\n\n\nTerm\nAbbreviation\nDefinition\nExample / Notes\n\n\n\n\nAdanced Driving Assistance System\nADAS\nDefintion of ADAS\nThink Tesla\n\n\nAdaptive Cruise Control\nACC\nDefintion of ADAS\nThink Tesla\n\n\nAdvanced Driving System\nADS\nDefintion of ADAS\nThink Tesla\n\n\nAdvanced Driving Assistance System - Dedicated Vehicle\nADAS-DV\nDefintion of ADAS\nThink Tesla\n\n\nAutomatic Emergency Braking\nAEB\nDefintion of ADAS\nThink Tesla\n\n\nAutomated Driving System\nADS\nLevel 3 through 5 systems that perform dynamic driving tasks on a sustained basis; the abbreviation should largely remain as such to avoid confusion with “driving automations system”\nThink Tesla\n\n\nDynamic Driving Task\nDDT\nDefintion of ADAS\nThink Tesla\n\n\nDedicated Short Range Communications\nDSRC\nDefintion of ADAS\nThink Tesla\n\n\nDriving Automation System\n–\nThe generic term for any level 1 through 5 systems that perform dynanic driving tasks on a sustained basis\nThink Tesla\n\n\nEletronic Stability Control\nESC\nDefintion of ADAS\nThink Tesla\n\n\nLane Keeping Assistance\nLKA\nDefintion of ADAS\nThink Tesla\n\n\nOperational Design Domain\nODD\nDefintion of ADAS\nThink Tesla\n\n\nObject and Event Detection and Response\nOEDR\nDefintion of ADAS\nThink Tesla\n\n\nDriverless Operation Dispatching Entity\n\nDefintion of ADAS\nThink Tesla\n\n\nAdanced Driving Assistance System\nADAS\nDefintion of ADAS\nThink Tesla"
-  },
-  {
-    "objectID": "fhwa.html",
-    "href": "fhwa.html",
-    "title": "Federal Highway Administration (FHWA)",
-    "section": "",
-    "text": "Federal Highway Administration (FHWA)"
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
   }
 ]
