@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 book:
-  title: "An Introduction to the World of Transportation"
+  title: "The AV / CV Book"
   reader-mode: false
   
   author: "W. Abram Astle"
@@ -52,7 +52,7 @@ book:
     
   page-footer: 
     left: |
-          An Introduction to the World of Transportation was written by W. Abram Astle
+          The AV / CV Book was written by W. Abram Astle
 
   
 

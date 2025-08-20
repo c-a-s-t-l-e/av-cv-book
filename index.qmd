@@ -1,15 +1,19 @@
-# Preface {.unnumbered}
+# Preface {#sec-preface .unnumbered}
 
-This book's goal is to give you an overview of the world of transportation.
+This book's goal is to help you think about autonomous and connected vehicles (AVs and CVs).
 
-This will hopefully give you the know-how to generally understand:
+This will hopefully help you answer the questions:
 
-- the bureaucratic structures, 
-- domain-specific terminology, and 
-- technological steps 
+- how can I implement a cv/av system in the real world legally?
+- how can I talk to others about the cv/av system?
+- how can I build a cv/av system (virtually and/or physically)?
 
-requisite to becoming useful in this domain.
+To assist you in that effort the book has been divided into roughly three parts:
 
-Just like lots of things in transportation, this book is definitely not perfect and should always be considered a work in progress. Feel free to reach out to me if you think something could be improved or would be a good addition to the text.
+- bureaucracy -> to navigate the regulatory landscape
+- terminology -> to help you know what's what
+- technology -> to help you build what you want
+
+Just like lots of things in the tech space though, this book is definitely not perfect and should always be considered a work in progress. Feel free to reach out to me if you think something could be improved or would be a good addition to the text.
 
 As always though, press on!

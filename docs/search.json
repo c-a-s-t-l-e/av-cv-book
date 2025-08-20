@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "An Introduction to the World of Transportation",
+    "title": "The AV / CV Book",
     "section": "",
-    "text": "Preface\nThis book’s goal is to give you an overview of the world of transportation.\nThis will hopefully give you the know-how to generally understand:\n\nthe bureaucratic structures,\ndomain-specific terminology, and\ntechnological steps\n\nrequisite to becoming useful in this domain.\nJust like lots of things in transportation, this book is definitely not perfect and should always be considered a work in progress. Feel free to reach out to me if you think something could be improved or would be a good addition to the text.\nAs always though, press on!",
+    "text": "Preface\nThis book’s goal is to help you think about autonomous and connected vehicles (AVs and CVs).\nThis will hopefully help you answer the questions:\n\nhow can I implement a cv/av system in the real world legally?\nhow can I talk to others about the cv/av system?\nhow can I build a cv/av system (virtually and/or physically)?\n\nTo assist you in that effort the book has been divided into roughly three parts:\n\nbureaucracy -&gt; to navigate the regulatory landscape\nterminology -&gt; to help you know what’s what\ntechnology -&gt; to help you build what you want\n\nJust like lots of things in the tech space though, this book is definitely not perfect and should always be considered a work in progress. Feel free to reach out to me if you think something could be improved or would be a good addition to the text.\nAs always though, press on!",
     "crumbs": [
       "Preface"
     ]
@@ -14,7 +14,7 @@
     "href": "intro.html",
     "title": "Introduction",
     "section": "",
-    "text": "There’s always the great temptation to read and book and feel like you’ve done something.\nThis book’s goal is not that. It’s to help you get stuff done.\nSpecifically, this book’s goal is to help you know where you and where you want to go in the world of transportation.\nThe main focus will be on working with and implementing transportation technology.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Imagine you are running your own vehicle company.\nLet’s say you’d like to implement an automated driving system or advanced driving assistance system in your vehicles.\nWhat are the regulatory hoops you have to jump through?\nWhat are the terms you need to know?\nHow can you build what you want?\n(WIP)",
     "crumbs": [
       "Introduction"
     ]
@@ -24,7 +24,7 @@
     "href": "bureaucracy-layers.html",
     "title": "1  How Many Layers Are There?",
     "section": "",
-    "text": "1.1 The big picture\nBasic infrastructure (think interstates, highways, and common roads) is considered a common good by most people. With that said, how it’s built, how it’s maintained, and how people use it have generally fallen into the domain of government.\nflowchart TD\n  A[Congress] --&gt; B[USDOT]\n\n  B --&gt; C[FHWA]\n  B --&gt; D[FTA]\n  B --&gt; E[FRA]\n  B --&gt; F[FAA]\n  B --&gt; G[NHTSA]\n  B --&gt; H[FMCSA]\n  B --&gt; I[PHMSA]\n\n  C --&gt; J[State DOTs]\n  D --&gt; J\n  E --&gt; J\n  F --&gt; J\n  G --&gt; J\n  H --&gt; J\n  I --&gt; J\n\n  J --&gt; K[MPOs]\n  J --&gt; L(RPOs)\n  J --&gt; M[City and County DOTs]\n  J --&gt; N[Transit Agencies]\n\n  %% Clickable links\n  click A \"https://www.congress.gov\"\n  click B \"https://www.transportation.gov\"\n  click C \"https://www.fhwa.dot.gov\"\n  click D \"https://www.transit.dot.gov\"\n  click E \"https://railroads.dot.gov\"\n  click F \"https://www.faa.gov\"\n  click G \"https://www.nhtsa.gov\"\n  click H \"https://www.fmcsa.dot.gov\"\n  click I \"https://www.phmsa.dot.gov\"\n  click J \"https://wikipave.org/index.php/List_of_Departments_of_Transportation_(DOTs)\"\n  click K \"https://www.planning.dot.gov/mpo/\"\nAbove is the very abstracted, big picture of how the transportation bureaucratic system is set up.\nAt the top is Congress and at the bottom are the local government entities. In the middle are the federal and state organizations.",
+    "text": "1.1 The big picture\nTransportation is considered a vital part of how a country operates.\nIt should then come to be no surprise that there is a lot of bureaucracy.\nflowchart TD\n  A[Congress] --&gt; B[USDOT]\n\n  B --&gt; C[FHWA]\n  B --&gt; D[FTA]\n  B --&gt; E[FRA]\n  B --&gt; F[FAA]\n  B --&gt; G[NHTSA]\n  B --&gt; H[FMCSA]\n  B --&gt; I[PHMSA]\n\n  C --&gt; J[State DOTs]\n  D --&gt; J\n  E --&gt; J\n  F --&gt; J\n  G --&gt; J\n  H --&gt; J\n  I --&gt; J\n\n  J --&gt; K[MPOs]\n  J --&gt; L(RPOs)\n  J --&gt; M[City and County DOTs]\n  J --&gt; N[Transit Agencies]\n\n  %% Clickable links\n  click A \"https://www.congress.gov\"\n  click B \"https://www.transportation.gov\"\n  click C \"https://www.fhwa.dot.gov\"\n  click D \"https://www.transit.dot.gov\"\n  click E \"https://railroads.dot.gov\"\n  click F \"https://www.faa.gov\"\n  click G \"https://www.nhtsa.gov\"\n  click H \"https://www.fmcsa.dot.gov\"\n  click I \"https://www.phmsa.dot.gov\"\n  click J \"https://wikipave.org/index.php/List_of_Departments_of_Transportation_(DOTs)\"\n  click K \"https://www.planning.dot.gov/mpo/\"\nAbove is the very abstracted, big picture of how the transportation bureaucratic system is set up.\nAt the top is Congress and at the bottom are the local government entities. In the middle are the federal and state organizations.",
     "crumbs": [
       "Bureaucracy Overview",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>How Many Layers Are There?</span>"
@@ -35,7 +35,7 @@
     "href": "terminology.html",
     "title": "15  Terminology",
     "section": "",
-    "text": "JUst as it is in nearly every domain of knowledge, there’s a a lot of specialized terminology that takes a while to know and use.\nThis next few chapters will, in particular, try to help you with this.",
+    "text": "Just as it is in nearly every domain of knowledge, there’s a a lot of specialized terminology that takes a while to know and use.\nThis next few chapters will, in particular, try to help you with this.",
     "crumbs": [
       "Terminology",
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>Terminology</span>"

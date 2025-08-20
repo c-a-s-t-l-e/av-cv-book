@@ -1,6 +1,8 @@
 # How Many Layers Are There? {#sec-bureaucracy}
 
-Basic infrastructure (think interstates, highways, and common roads) is considered a common good by most people. With that said, how it's built, how it's maintained, and how people use it have generally fallen into the domain of government. 
+Transportation is considered a vital part of how a country operates. 
+
+It should then come to be no surprise that there is a lot of bureaucracy.
 
 ## The big picture
 
