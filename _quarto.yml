@@ -62,6 +62,6 @@ format:
     theme:
       - cosmo
       - i2wt.scss
-
+    html-publish-url: https://c-a-s-t-l-e.github.io/av-cv-book/
 editor: source
 
